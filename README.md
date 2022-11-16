@@ -24,7 +24,7 @@ Spring Cloud Config Server (JDBC Backend) with Spring Cloud Bus
 > `./gradlew BootRun`
 
 4. Try to get the configuration and parse it with jq
-> `curl -s localhost:8888/application/default/master | jq .`
+> `curl -s -u user:pass localhost:8888/application/default/master | jq .`
 
 ### Other tasks
 
@@ -32,10 +32,10 @@ Spring Cloud Config Server (JDBC Backend) with Spring Cloud Bus
 > `psql -h localhost -d postgres -U postgres -W -f updated-data.sql`
 
 - Get error-phrases configuration
-> `curl -s localhost:8888/application/error-phrases/master | jq .`
+> `curl -s -u user:pass localhost:8888/application/error-phrases/master | jq .`
 
 - Refresh the Spring Cloud Bus
-> `curl -s -X POST localhost:8888/actuator/busrefresh`
+> `curl -s -u user:pass -X POST localhost:8888/actuator/busrefresh`
 
 - Stop PostgreSQL and Kafka
 > `docker-compose down -v`
