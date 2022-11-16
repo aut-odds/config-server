@@ -37,5 +37,11 @@ Spring Cloud Config Server (JDBC Backend) with Spring Cloud Bus
 - Refresh the Spring Cloud Bus
 > `curl -s -u user:pass -X POST localhost:8888/actuator/busrefresh`
 
+- Encrypt data
+> `curl -s -u user:pass localhost:8888/encrypt --data-urlencode <PLAINTEXT>`
+
+- Decrypt data
+> `curl -s -u user:pass localhost:8888/decrypt -d <CIPHERTEXT>`
+
 - Stop PostgreSQL and Kafka
 > `docker-compose down -v`
