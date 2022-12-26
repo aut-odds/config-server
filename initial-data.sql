@@ -10,7 +10,7 @@ CREATE TABLE properties(
 );
 
 -- label=dc0
-INSERT INTO properties VALUES ('application', 'default', 'dc0', 'foo', 'bar');
+INSERT INTO properties VALUES ('application', 'default', 'dc0', 'foo', 'jdbc');
 
 INSERT INTO properties VALUES ('application', 'error-phrases', 'dc0', 'errorphrase.data.1.en', 'Error 1');
 INSERT INTO properties VALUES ('application', 'error-phrases', 'dc0', 'errorphrase.data.1.th', 'ตาย 1');
