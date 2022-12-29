@@ -50,6 +50,13 @@ INSERT INTO properties VALUES ('config-client', 'default', 'dc2', 'management.en
 -- label=develop
 INSERT INTO properties VALUES ('application', 'default', 'develop', 'foo', 'jdbc');
 
+INSERT INTO properties VALUES ('application', 'error-phrases', 'develop', 'errorphrase.data.1.en', 'Error l');
+INSERT INTO properties VALUES ('application', 'error-phrases', 'develop', 'errorphrase.data.1.th', 'ตาย l');
+INSERT INTO properties VALUES ('application', 'error-phrases', 'develop', 'errorphrase.data.2.en', 'Error ll');
+INSERT INTO properties VALUES ('application', 'error-phrases', 'develop', 'errorphrase.data.2.th', 'ตาย ll');
+INSERT INTO properties VALUES ('application', 'error-phrases', 'develop', 'errorphrase.data.3.en', 'Error lll');
+INSERT INTO properties VALUES ('application', 'error-phrases', 'develop', 'errorphrase.data.3.th', 'ตาย lll');
+
 INSERT INTO properties VALUES ('config-client', 'default', 'develop', 'management.endpoints.web.exposure.include', 'health,refresh');
 
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_acct_length', '10');
