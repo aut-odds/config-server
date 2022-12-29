@@ -52,10 +52,10 @@ INSERT INTO properties VALUES ('application', 'default', 'develop', 'foo', 'jdbc
 
 INSERT INTO properties VALUES ('config-client', 'default', 'develop', 'management.endpoints.web.exposure.include', 'health,refresh');
 
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_acct_length', '10');;
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_logo', '/bank/logo/02.png');;
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_acct_length', '10');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_logo', '/bank/logo/02.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_name_en', 'Bangkok Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_name_th', 'ธนาคารกรุงเทพ จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_shortname', 'BBL');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[0].display_order', '2');
@@ -72,7 +72,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_logo', '/bank/logo/04.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_name_en', 'Kasikorn Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e2a\u0e34\u0e01\u0e23\u0e44\u0e17\u0e22 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_name_th', 'ธนาคารกสิกรไทย จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_shortname', 'KBANK');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[1].display_order', '3');
@@ -89,7 +89,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_acct_length', '6');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_logo', '/bank/logo/05.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_name_en', 'ABN-AMRO N.V.');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e2d\u0e1a\u0e35\u0e40\u0e2d\u0e47\u0e19 \u0e41\u0e2d\u0e21\u0e42\u0e23 \u0e40\u0e2d\u0e47\u0e19.\u0e27\u0e35.');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_name_th', 'ธนาคารเอบีเอ็น แอมโร เอ็น.วี.');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_shortname', 'ABN-AMRO');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[2].display_order', '20');
@@ -107,7 +107,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_logo', '/bank/logo/06.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_name_en', 'Krung Thai Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e44\u0e17\u0e22 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_name_th', 'ธนาคารกรุงไทย จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_shortname', 'KTB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[3].display_order', '6');
@@ -126,7 +126,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_logo', '/bank/logo/10.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_name_en', 'The Bank of Tokyo-Mitsubishi UFJ');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e41\u0e2b\u0e48\u0e07\u0e42\u0e15\u0e40\u0e01\u0e35\u0e22\u0e27-\u0e21\u0e34\u0e15\u0e0b\u0e39\u0e1a\u0e34\u0e0a\u0e34 \u0e22\u0e39\u0e40\u0e2d\u0e1f\u0e40\u0e08 \u0e2a\u0e32\u0e02\u0e32\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_name_th', 'ธนาคารแห่งโตเกียว-มิตซูบิชิ ยูเอฟเจ สาขากรุงเทพ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_shortname', 'BTMU');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[4].display_order', '21');
@@ -144,7 +144,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_logo', '/bank/logo/14.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_name_en', 'Siam Commercial Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e44\u0e17\u0e22\u0e1e\u0e32\u0e13\u0e34\u0e0a\u0e22\u0e4c \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_name_th', 'ธนาคารไทยพาณิชย์ จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_shortname', 'SCB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[5].display_order', '4');
@@ -162,7 +162,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_logo', '/bank/logo/15.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_name_en', 'Siam City Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e19\u0e04\u0e23\u0e2b\u0e25\u0e27\u0e07\u0e44\u0e17\u0e22 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_name_th', 'ธนาคารนครหลวงไทย จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_shortname', 'SCIB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[6].display_order', '22');
@@ -180,7 +180,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_logo', '/bank/logo/17.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_name_en', 'CITIBANK');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e0b\u0e34\u0e15\u0e35\u0e49\u0e41\u0e1a\u0e07\u0e01\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_name_th', 'ธนาคารซิตี้แบงก์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_shortname', 'CITI');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[7].display_order', '23');
@@ -197,7 +197,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_logo', '/bank/logo/18.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_name_en', 'Sumitomo Mitsui Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e0b\u0e39\u0e21\u0e34\u0e42\u0e15\u0e42\u0e21 \u0e21\u0e34\u0e15\u0e0b\u0e38\u0e22 \u0e41\u0e1a\u0e07\u0e01\u0e34\u0e49\u0e07 \u0e04\u0e2d\u0e23\u0e4c\u0e1b\u0e2d\u0e40\u0e23\u0e0a\u0e31\u0e48\u0e19');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_name_th', 'ธนาคารซูมิโตโม มิตซุย แบงกิ้ง คอร์ปอเรชั่น');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_shortname', 'SMBC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[8].display_order', '24');
@@ -214,7 +214,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_acct_length', '1011');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_logo', '/bank/logo/20.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_name_en', 'Standard Chartered Bank (Thai);');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e2a\u0e41\u0e15\u0e19\u0e14\u0e32\u0e23\u0e4c\u0e14\u0e0a\u0e32\u0e23\u0e4c\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e14 (\u0e44\u0e17\u0e22);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_name_th', 'ธนาคารสแตนดาร์ดชาร์เตอร์ด (ไทย)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_shortname', 'SCBT');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[9].display_order', '10');
@@ -233,7 +233,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_logo', '/bank/logo/22.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_name_en', 'CIMB Thai Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e0b\u0e35\u0e44\u0e2d\u0e40\u0e2d\u0e47\u0e21\u0e1a\u0e35 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_name_th', 'ธนาคารซีไอเอ็มบี จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_shortname', 'CIMB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[10].display_order', '25');
@@ -251,7 +251,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_logo', '/bank/logo/24.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_name_en', 'United Overseas Bank (Thai);');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e22\u0e39\u0e42\u0e2d\u0e1a\u0e35 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_name_th', 'ธนาคารยูโอบี จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_shortname', 'UOBT');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[11].display_order', '8');
@@ -269,7 +269,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_logo', '/bank/logo/25.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_name_en', 'Bank of Ayudhya');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_name_th', 'ธนาคารกรุงศรีอยุธยา จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_shortname', 'BAY');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[12].display_order', '5');
@@ -287,7 +287,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_logo', '/bank/logo/26.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_name_en', 'Mega International Commercial Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e21\u0e01\u0e30 \u0e2a\u0e32\u0e01\u0e25\u0e1e\u0e32\u0e13\u0e34\u0e0a\u0e22\u0e4c \u0e08\u0e33\u0e01\u0e31\u0e14');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_name_th', 'ธนาคารเมกะ สากลพาณิชย์ จำกัด');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_shortname', 'MEGA ICBC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[13].display_order', '26');
@@ -306,7 +306,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_acct_length', '891011');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_logo', '/bank/logo/27.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_name_en', 'Bank of America');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e41\u0e2b\u0e48\u0e07\u0e2d\u0e40\u0e21\u0e23\u0e34\u0e01\u0e32 \u0e40\u0e19\u0e0a\u0e31\u0e48\u0e19\u0e41\u0e19\u0e25\u0e2f');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_name_th', 'ธนาคารแห่งอเมริกา เนชั่นแนลฯ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_shortname', 'BA');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[14].display_order', '27');
@@ -325,7 +325,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_acct_length', '1215');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_logo', '/bank/logo/30.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_name_en', 'Government Savings Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e2d\u0e2d\u0e21\u0e2a\u0e34\u0e19');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_name_th', 'ธนาคารออมสิน');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_shortname', 'GSB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[15].display_order', '28');
@@ -344,7 +344,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_acct_length', '12');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_logo', '/bank/logo/31.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_name_en', 'Hongkong and Shanghai Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e2e\u0e48\u0e2d\u0e07\u0e01\u0e07\u0e41\u0e25\u0e30\u0e40\u0e0b\u0e35\u0e48\u0e22\u0e07\u0e44\u0e2e\u0e49 \u0e08\u0e33\u0e01\u0e31\u0e14');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_name_th', 'ธนาคารฮ่องกงและเซี่ยงไฮ้ จำกัด');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_shortname', 'HSBC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[16].display_order', '9');
@@ -362,7 +362,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_logo', '/bank/logo/32.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_name_en', 'Deutsche Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e14\u0e2d\u0e22\u0e0b\u0e4c\u0e41\u0e1a\u0e07\u0e04\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_name_th', 'ธนาคารดอยซ์แบงค์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_shortname', 'DEUTSCHE');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[17].display_order', '29');
@@ -380,7 +380,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_acct_length', '1012');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_logo', '/bank/logo/34.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_name_en', 'Bank for Agriculture and Agricultural');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e01\u0e29\u0e15\u0e23\u0e41\u0e25\u0e30\u0e2a\u0e2b\u0e01\u0e23\u0e13\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_name_th', 'ธนาคารเพื่อการเกษตรและสหกรณ์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_shortname', 'BAAC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[18].display_order', '30');
@@ -398,7 +398,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_acct_length', '11');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_logo', '/bank/logo/39.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_name_en', 'Mizuho Bank Ltd. Bangkok Branch');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e21\u0e34\u0e0b\u0e39\u0e42\u0e2e \u0e08\u0e33\u0e01\u0e31\u0e14 \u0e2a\u0e32\u0e02\u0e32\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_name_th', 'ธนาคารมิซูโฮ จำกัด สาขากรุงเทพฯ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_shortname', 'MHBK');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[19].display_order', '31');
@@ -415,7 +415,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_logo', '/bank/logo/65.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_name_en', 'Thanachart Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e18\u0e19\u0e0a\u0e32\u0e15 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_name_th', 'ธนาคารธนชาต จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_shortname', 'TBANK');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[20].display_order', '32');
@@ -433,7 +433,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_logo', '/bank/logo/66.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_name_en', 'Islamic Bank of Thailand');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e2d\u0e34\u0e2a\u0e25\u0e32\u0e21\u0e41\u0e2b\u0e48\u0e07\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_name_th', 'ธนาคารอิสลามแห่งประเทศไทย');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_shortname', 'ISBT');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].bank_status', 'Inactive');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[21].display_order', '33');
@@ -451,7 +451,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_acct_length', '14');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_logo', '/bank/logo/67.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_name_en', 'Tisco Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e17\u0e34\u0e2a\u0e42\u0e01\u0e49 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_name_th', 'ธนาคารทิสโก้ จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_shortname', 'TISCO');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[22].display_order', '34');
@@ -468,7 +468,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_acct_length', '1014');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_logo', '/bank/logo/69.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_name_en', 'Kiatnakin Phatra Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34\u0e19\u0e32\u0e04\u0e34\u0e19\u0e20\u0e31\u0e17\u0e23 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_name_th', 'ธนาคารเกียรตินาคินภัทร จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_shortname', 'KKP');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[23].display_order', '7');
@@ -486,7 +486,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_acct_length', '101416');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_logo', '/bank/logo/70.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_name_en', 'Industrial and Commercial Bank of China (Thai);');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e44\u0e2d\u0e0b\u0e35\u0e1a\u0e35\u0e0b\u0e35 (\u0e44\u0e17\u0e22); \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_name_th', 'ธนาคารไอซีบีซี (ไทย) จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_shortname', 'ICBC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[24].display_order', '35');
@@ -504,7 +504,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_logo', '/bank/logo/71.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_name_en', 'Thai Credit Retail Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e44\u0e17\u0e22\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e23\u0e32\u0e22\u0e22\u0e48\u0e2d\u0e22 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_name_th', 'ธนาคารไทยเครดิต เพื่อรายย่อย จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_shortname', 'TCRB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[25].display_order', '36');
@@ -523,7 +523,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_logo', '/bank/logo/73.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_name_en', 'Land and Houses Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e41\u0e25\u0e19\u0e14\u0e4c\u0e41\u0e2d\u0e19\u0e14\u0e4c\u0e40\u0e2e\u0e49\u0e32\u0e2a\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_name_th', 'ธนาคารแลนด์แอนด์เฮ้าส์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_shortname', 'LH Bank');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[26].display_order', '37');
@@ -541,7 +541,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_logo', '/bank/logo/11.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_name_en', 'TMBThanachart Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e17\u0e2b\u0e32\u0e23\u0e44\u0e17\u0e22\u0e18\u0e19\u0e0a\u0e32\u0e15 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_name_th', 'ธนาคารทหารไทยธนชาต จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_shortname', 'ttb');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[27].display_order', '1');
@@ -559,7 +559,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_logo', '/bank/logo/08.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_name_en', 'JPMorgan Chase Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e08\u0e1e\u0e35\u0e21\u0e2d\u0e23\u0e4c\u0e41\u0e01\u0e19 \u0e40\u0e0a\u0e2a');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_name_th', 'ธนาคารเจพีมอร์แกน เชส');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_shortname', 'JPMC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[28].display_order', '42');
@@ -578,7 +578,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_acct_length', '1012');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_logo', '/bank/logo/33.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_name_en', 'Government Housing Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e2a\u0e07\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_name_th', 'ธนาคารอาคารสงเคราะห์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_shortname', 'GHB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[29].display_order', '43');
@@ -597,7 +597,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_acct_length', '1011');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_logo', '/bank/logo/79.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_name_en', 'ANZ Bank (Thai);');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e2d\u0e40\u0e2d\u0e47\u0e19\u0e41\u0e0b\u0e14 (\u0e44\u0e17\u0e22); \u0e08\u0e33\u0e01\u0e31\u0e14');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_name_th', 'ธนาคารเอเอ็นแซด (ไทย) จำกัด');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_shortname', 'ANZ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[30].display_order', '44');
@@ -616,7 +616,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_acct_length', '11');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_logo', '/bank/logo/45.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_name_en', 'BNP Paribas');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e1a\u0e35\u0e40\u0e2d\u0e47\u0e19\u0e1e\u0e35 \u0e1e\u0e32\u0e23\u0e35\u0e1a\u0e32\u0e2a\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_name_th', 'ธนาคารบีเอ็นพี พารีบาส์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_shortname', 'BNPP');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].bank_status', 'Inactive');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[31].display_order', '40');
@@ -635,7 +635,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_acct_length', '15');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_logo', '/bank/logo/52.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_name_en', 'Bank of China (Thai);');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e41\u0e2b\u0e48\u0e07\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e08\u0e35\u0e19 (\u0e44\u0e17\u0e22); \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_name_th', 'ธนาคารแห่งประเทศจีน (ไทย) จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_shortname', 'BOC');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[32].display_order', '41');
@@ -653,7 +653,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_logo', '/bank/logo/29.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_name_en', 'INDIAN OVERSEAS BANK');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23 \u0e2d\u0e34\u0e19\u0e40\u0e14\u0e35\u0e22\u0e19 \u0e42\u0e2d\u0e40\u0e27\u0e2d\u0e23\u0e4c\u0e0b\u0e35\u0e23\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_name_th', 'ธนาคาร อินเดียน โอเวอร์ซีร์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_shortname', 'IOBA');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[33].display_order', '45');
@@ -672,7 +672,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_logo', '/bank/logo/991.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_name_en', 'Test IdP1');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_name_th', '\u0e17\u0e14\u0e2a\u0e2d\u0e1a IdP1');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_name_th', 'ทดสอบ IdP1');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_shortname', 'IDP1');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[34].display_order', '91');
@@ -690,7 +690,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_logo', '/bank/logo/992.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_name_en', 'Test IdP2');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_name_th', '\u0e17\u0e14\u0e2a\u0e2d\u0e1a IdP2');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_name_th', 'ทดสอบ IdP2');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_shortname', 'IDP2');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[35].display_order', '92');
@@ -708,7 +708,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_acct_length', '123');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_logo', '/bank/logo/12');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_name_en', 'TMB');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_name_th', 'ธนาคาร');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_shortname', 'Test');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].bank_status', 'Inactive');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[36].display_order', '10');
@@ -725,7 +725,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_acct_length', '12');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_logo', '/bank/logo/77.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_name_en', 'testdd');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_name_th', '\u0e2b\u0e01\u0e01\u0e01');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_name_th', 'หกกก');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_shortname', 'ttestt');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[37].display_order', '1');
@@ -742,7 +742,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_acct_length', '12344556666');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_logo', '/bank/logo/98.svg');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_name_en', 'Tesss');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_name_th', '\u0e44\u0e17\u0e22\u0e40\u0e17\u0e2a');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_name_th', 'ไทยเทส');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_shortname', 'sss');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[38].display_order', '88');
@@ -759,7 +759,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_acct_length', '2233456789');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_logo', '/bank/logo/99.svg');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_name_en', 'en test');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_name_th', '\u0e44\u0e17\u0e22 \u0e40\u0e17\u0e2a');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_name_th', 'ไทย เทส');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_shortname', 'test');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[39].display_order', '88');
@@ -776,7 +776,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_logo', '/bank/logo/02.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_name_en', 'Bangkok Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_name_th', 'ธนาคารกรุงเทพ จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_shortname', 'BBL1');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[40].display_order', '2');
@@ -793,7 +793,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_logo', '/bank/logo/06.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_name_en', 'Krung Thai Bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e44\u0e17\u0e22 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_name_th', 'ธนาคารกรุงไทย จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_shortname', 'KTB1');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[41].display_order', '6');
@@ -810,7 +810,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_logo', '/bank/logo/25.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_name_en', 'Bank of Ayudhya');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32 \u0e08\u0e33\u0e01\u0e31\u0e14 (\u0e21\u0e2b\u0e32\u0e0a\u0e19);');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_name_th', 'ธนาคารกรุงศรีอยุธยา จำกัด (มหาชน)');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_shortname', 'BAY1');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[42].display_order', '5');
@@ -827,7 +827,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_logo', '/bank/logo/85.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_name_en', 'Test Promptpay');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_name_th', '\u0e40\u0e17\u0e2a\u0e1e\u0e23\u0e49\u0e2d\u0e21\u0e40\u0e1e\u0e22\u0e4c\u0e14\u0e32\u0e27\u0e17\u0e32\u0e21');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_name_th', 'เทสพร้อมเพย์ดาวทาม');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_shortname', 'TestPPDT');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[43].display_order', '3');
@@ -844,7 +844,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_logo', '/bank/logo/84.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_name_en', 'Test new bank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_name_th', '\u0e40\u0e17\u0e2a\u0e19\u0e34\u0e27\u0e41\u0e1a\u0e07\u0e04\u0e4c');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_name_th', 'เทสนิวแบงค์');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_shortname', 'TNB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].bank_status', 'Inactive');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[44].display_order', '84');
@@ -861,7 +861,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_logo', '/bank/logo/83.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_name_en', ' Test new bank two');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_name_th', '\u0e40\u0e17\u0e2a\u0e19\u0e34\u0e27\u0e41\u0e1a\u0e07\u0e04\u0e4c\u0e2a\u0e2d\u0e07');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_name_th', 'เทสนิวแบงค์สอง');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_shortname', 'TNBB');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].bank_status', 'Inactive');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[45].display_order', '83');
@@ -878,7 +878,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_logo', '/images/ekyc/agent/ais/5G_VERTICAL_WHITE_BG@2x.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_name_en', 'myAIS');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_name_th', '\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e41\u0e2d\u0e14\u0e27\u0e32\u0e19\u0e0b\u0e4c \u0e2d\u0e34\u0e19\u0e42\u0e1f\u0e23\u0e4c \u0e40\u0e0b\u0e2d\u0e23\u0e4c\u0e27\u0e34\u0e2a \u0e08\u0e33\u0e01\u0e31\u0e14 ');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_name_th', 'บริษัท แอดวานซ์ อินโฟร์ เซอร์วิส จำกัด ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_shortname', 'ais');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[46].display_order', '2');
@@ -895,7 +895,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_logo', '/bank/logo/87.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_name_en', 'TestNewBankDown');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_name_th', '\u0e40\u0e17\u0e2a\u0e19\u0e34\u0e27\u0e41\u0e1a\u0e07\u0e04\u0e4c\u0e14\u0e32\u0e27');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_name_th', 'เทสนิวแบงค์ดาว');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_shortname', 'TNBD');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[47].display_order', '4');
@@ -911,7 +911,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_logo', '/bank/logo/89.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_name_en', 'TestNewBankQ');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_name_th', '\u0e40\u0e17\u0e2a\u0e19\u0e34\u0e27\u0e41\u0e1a\u0e07\u0e04\u0e4c\u0e04\u0e34\u0e27');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_name_th', 'เทสนิวแบงค์คิว');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_shortname', 'TNBQ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[48].display_order', '4');
@@ -927,7 +927,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_logo', '/bank/logo/88.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_name_en', 'TestTestTest');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_name_th', '\u0e40\u0e17\u0e2a\u0e40\u0e17\u0e2a\u0e40\u0e17\u0e2a');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_name_th', 'เทสเทสเทส');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_shortname', 'TTT');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[49].display_order', '4');
@@ -944,7 +944,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_logo', '/bank/logo/97.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_name_en', 'YesTest');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_name_th', '\u0e40\u0e17\u0e2a\u0e2a\u0e34');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_name_th', 'เทสสิ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_shortname', 'YYY');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[50].display_order', '3');
@@ -961,7 +961,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_acct_length', '12');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_logo', '/bank/logo/77.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_name_en', 'testdd');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_name_th', '\u0e40\u0e17\u0e2a');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_name_th', 'เทส');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_shortname', 'ttestt');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[51].display_order', '1');
@@ -979,7 +979,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_logo', '/bank/logo/44.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_name_en', 'itpool');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_name_th', '\u0e44\u0e2d\u0e17\u0e35\u0e1e\u0e39\u0e25 \u0e41\u0e01\u0e49\u0e08\u0e49\u0e32');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_name_th', 'ไอทีพูล แก้จ้า');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_shortname', 'itit');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].bank_status', 'Active');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[52].display_order', '1');
@@ -995,7 +995,7 @@ INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-in
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_acct_length', '10');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_logo', '/bank/logo/13.png');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_name_en', 'ABank');
-INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_name_th', '\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e40\u0e2d');
+INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_name_th', 'ธนาคารเอ');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_shortname', 'ABank');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].bank_status', 'Close');
 INSERT INTO properties VALUES ('application', 'banks-info', 'develop', 'banks-info.data[53].display_order', '4');
