@@ -5,3 +5,5 @@ UPDATE properties SET "VALUE" = 'ตาย ๒' WHERE "KEY" = 'errorphrase.data.
 UPDATE properties SET "VALUE" = 'ตาย ๓' WHERE "KEY" = 'errorphrase.data.3.th';
 
 UPDATE properties SET "VALUE" = 'refresh' WHERE "KEY" = 'management.endpoints.web.exposure.include';
+
+UPDATE properties SET "VALUE" = 'Unavailable' WHERE "KEY" = 'banks-info.data[53].promptpay_status';
